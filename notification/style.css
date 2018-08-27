@@ -1,0 +1,22 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+.notification {
+  position: absolute;
+  margin-top: -20px;
+  margin-right: -56px;
+  z-index: 1000;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font: normal 20px Georgia;
+  background: white;
+  text-align: center;
+}
+
+.welcome {
+  background: red;
+  color: yellow;
+}

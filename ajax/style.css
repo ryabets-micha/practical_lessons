@@ -1,0 +1,29 @@
+body {
+	width: 100vw;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+	padding-top: 50px;
+}
+
+#list {
+
+}
+
+.lishka {
+	color: #ccc;
+	list-style: none;
+	padding: 2px;
+	border: 1px solid red;
+	margin-top: 3px;
+	text-align: center;
+}
